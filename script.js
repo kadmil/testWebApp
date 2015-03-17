@@ -105,26 +105,23 @@ function pJS_mobile() {
 
 /* LAUNCH */
 
-if (window.innerWidth > 320) {
-    pJS_desktop();
-} else {
-    pJS_mobile();
-}
+
+pJS_desktop();
 
 /* on resize */
 
-window.addEventListener('resize', function() {
-    checkOnResize();
-}, true);
+// window.addEventListener('resize', function() {
+//     checkOnResize();
+// }, true);
 
-function checkOnResize() {
-    if (window.innerWidth > 320) {
-        console.log('desktop mode')
-        pJS.fn.vendors.destroy();
-        pJS_desktop();
-    } else {
-        console.log('mobile mode');
-        pJS.fn.vendors.destroy();
-        pJS_mobile();
-    }
-}
+// function checkOnResize() {
+//     if (window.innerWidth > 320) {
+//         console.log('desktop mode')
+//         pJS.fn.vendors.destroy();
+//         pJS_desktop();
+//     } else {
+//         console.log('mobile mode');
+//         pJS.fn.vendors.destroy();
+//         pJS_mobile();
+//     }
+// }
