@@ -3,7 +3,7 @@
 function pJS_desktop(){
   particlesJS('particles-js', {
     particles: {
-      color: '#fff',
+      color: '#FFC107',
       shape: 'circle',
       opacity: {
         opacity: 1
@@ -14,7 +14,7 @@ function pJS_desktop(){
       line_linked: {
         enable_auto: true,
         distance: 250,
-        color: '#fff',
+        color: '#FFC107',
         opacity: 0.5,
         width: 1,
         condensed_mode: {
@@ -57,7 +57,7 @@ function pJS_desktop(){
 function pJS_mobile(){
   particlesJS('particles-js', {
     particles: {
-      color: '#fff',
+      color: '#FFC107',
       shape: 'circle',
       opacity: 1,
       size: 2.5,
@@ -66,7 +66,7 @@ function pJS_mobile(){
       line_linked: {
         enable_auto: false,
         distance: 250,
-        color: '#fff',
+        color: '#FFC107',
         opacity: 0.5,
         width: 1,
         condensed_mode: {
