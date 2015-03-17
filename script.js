@@ -105,7 +105,7 @@ function pJS_mobile(){
 
 /* LAUNCH */
 
-if(window.innerWidth > 1100){
+if(window.innerWidth > 320){
   pJS_desktop();
 }else{
   pJS_mobile();
@@ -118,7 +118,7 @@ window.addEventListener('resize', function() {
 }, true);
 
 function checkOnResize(){
-  if(window.innerWidth > 1100){
+  if(window.innerWidth > 320){
     if(pJS.particles.nb != 150){
       console.log('desktop mode')
       pJS.fn.vendors.destroy();
